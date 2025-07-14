@@ -1,0 +1,13 @@
+openai
+langchain_openai
+langchain-community
+faiss-cpu
+PyMuPDF
+pdfplumber
+pandas
+tqdm
+requests
+beautifulsoup4
+html-table-extractor
+Pillow
+pytesseract
