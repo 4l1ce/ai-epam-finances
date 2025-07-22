@@ -58,7 +58,7 @@ A console-based AI assistant that lets you chat with EPAM Systems' Q4 and full-y
 ### 0. Clone this repository
 
 ```bash
-git clone https://github.com/your-username/ai-epam-finances.git
+git clone https://github.com/4l1ce/ai-epam-finances.git
 cd ai-epam-finances
 ```
 
