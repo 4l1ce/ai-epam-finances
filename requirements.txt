@@ -4,10 +4,16 @@ langchain-community
 faiss-cpu
 PyMuPDF
 pdfplumber
-pandas
+pandas<2.3.0
 tqdm
 requests
 beautifulsoup4
 html-table-extractor
 Pillow
 pytesseract
+pytest
+typing-extensions>=4.9.0
+langtest>=1.0.0
+setuptools
+llama-index==0.10.32  # or another version compatible with pydantic 2.9.2
+pydantic==2.9.2

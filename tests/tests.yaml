@@ -1,0 +1,28 @@
+
+task: question_answering
+
+model:
+  model_type: openai
+  model_name: gpt-4
+  api_key: $OPENAI_API_KEY
+
+dataset:
+  name: epam-financial-tests
+  data:
+    - input: "What was EPAM's Q4 2024 revenue?"
+      expected_output: "1.175 billion"
+    - input: "How much did EPAM earn in full-year 2024?"
+      expected_output: "4.673 billion"
+    - input: "What are the Q1 2025 projected revenues?"
+      expected_output: "1.275 to 1.290 billion"
+
+tests:
+  factual: true
+
+  robustness:
+    enabled: true
+    tests:
+      - rephrasing
+      - swap_synonym
+      - add_typo
+      - change_tense
